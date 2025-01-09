@@ -10,3 +10,6 @@ min_version = "0.75.0"
 [author]
     name = "nodejh"
     homepage = "https://github.com/nodejh"
+
+theme: 
+   - github.com/nodejh/hugo-theme-mini
