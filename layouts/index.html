@@ -1,7 +1,16 @@
 {{ define "main" }}
 {{ partial "profile.html" . }}
 
-<div id="list-page">
+<!-- Index Section -->
+<section id="section">
+{{ with .Site.GetPage "section" "index" }}
+    <div class="index-content">
+    {{ .Content }}
+    </div>
+{{ end }}
+</section>
+
+<div id="list-page" style="margin-top: 60px;">
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
