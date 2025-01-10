@@ -43,9 +43,9 @@ params:
   # Site Author
   author: Tate Kim
   # Author biography
-  bio: Neuroscientist and Software Engineer
+  bio: Brain and Software Engineer
   # Site Description, used in HTML meat
-  description: Tate Kim's Neuroscience Blog
+  description: Tate Kim's Engineering Blog
 
 
   ###########################################

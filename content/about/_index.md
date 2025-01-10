@@ -9,4 +9,4 @@ enableComments = false
 
 About page
 
-Read my recent articles below
+Building in progress
