@@ -1,9 +1,9 @@
 +++
-title = "Tate Kim"
+title = "Yongtae Kim"
 description = "Brain and Software Engineer"
 date = "2025-01-10"
 aliases = ["index", "home", "contact"]
-author = "Tate Kim"
+author = "Yongtae Kim"
 enableComments = false
 +++
 

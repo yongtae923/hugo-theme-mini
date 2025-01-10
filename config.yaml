@@ -1,6 +1,6 @@
-baseURL: https://tate.kim
+baseURL: https://yongtae.kim
 languageCode: en-us
-title: Tate Kim
+title: Yongtae Kim
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
 defaultContentLanguage: en
@@ -41,11 +41,11 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Tate Kim
+  author: Yongtae Kim
   # Author biography
   bio: Brain and Software Engineer
   # Site Description, used in HTML meat
-  description: Tate Kim's Engineering Blog
+  description: Yongtae Kim's Engineering Blog
 
 
   ###########################################
@@ -67,7 +67,7 @@ params:
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
   hiddenPostSummaryInHomePage: false
   # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
-  copyright: '© Copyright 2025 Tate Kim' 
+  copyright: '© Copyright 2025 Yongtae Kim' 
 
 
   # Extra links in navigation
