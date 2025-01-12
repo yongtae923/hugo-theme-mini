@@ -11,13 +11,8 @@
     {{ end }}
 
 	{{ if .Site.IsMultiLingual }}
-		{{ range .Site.Languages }}
-		{{ if eq . $.Site.Language }}
-		{{ else }}
-			{{ range $.Translations }}
-			<a href="{{ .Permalink }}" class="">{{ .Language.LanguageName }}</a>
-			{{ end }}
-		{{ end }}
+		{{ range $.Translations }}
+			<a href="{{ .Permalink }}" class="language-switch">{{ .Language.LanguageName }}</a>
 		{{ end }}
 	{{ end }}
 
