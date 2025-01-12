@@ -3,7 +3,6 @@ languageCode: en-us
 title: Yongtae Kim
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
-defaultContentLanguage: en
 
 hasCJKLanguage: true
 permalinks:
@@ -85,3 +84,32 @@ params:
     ## e.g.
     # - js/custom.js # local js in `static/js/custom.js`
     # - https://example.com/custom.js # remote js
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      author: Yongtae Kim
+      bio: Brain and Software Engineer
+      description: Yongtae Kim's Engineering Blog
+    title: Yongtae Kim
+    weight: 2
+
+  ko:
+    contentDir: content/ko
+    disabled: false
+    languageCode: ko-KR
+    languageDirection: ltr
+    languageName: Korean
+    params:
+      author: 김용태
+      bio: 뇌와 소프트웨어 엔지니어
+      description: 김용태의 엔지니어링 블로그
+    title: 김용태
+    weight: 1

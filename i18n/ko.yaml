@@ -1,0 +1,50 @@
+home:
+  other: 홈
+
+archive:
+  other: 목록
+
+tags:
+  other: 태그
+
+about:
+  other: 소개
+
+subscribe:
+  other: RSS
+
+404title:
+  other: 404 - 페이지를 찾을 수 없습니다
+
+404subtitle:
+  other: 찾고 있는 콘텐츠가 존재하지 않습니다.
+
+readMore:
+  other: 더보기
+
+minuteRead:
+  other: "{{ .ReadingTime }} 분 소요"
+
+publishDate:
+  other: '{{ .PublishDate.Format "2006-01-02" }}'
+
+publishDateFull:
+  other: '{{ .PublishDate.Format "2006-01-02" }}'
+
+wordCount:
+  one: "{{ .WordCount }} 단어"
+  other: "{{ .WordCount }} 단어"
+
+postsNewer:
+  other: 최신글
+
+postsOlder:
+  other: 이전글
+
+poweredBy:
+  other: >-
+    Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a
+    href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+
+publishDateShort:
+  other: '{{ .PublishDate.Format "01-02" }}'
