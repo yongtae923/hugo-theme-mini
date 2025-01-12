@@ -93,7 +93,7 @@ languages:
     disabled: false
     languageCode: en-US
     languageDirection: ltr
-    languageName: English
+    languageName: 🇺🇸 English
     params:
       author: Yongtae Kim
       bio: Brain and Software Engineer
@@ -106,7 +106,7 @@ languages:
     disabled: false
     languageCode: ko-KR
     languageDirection: ltr
-    languageName: 한국어
+    languageName: 🇰🇷 한국어
     params:
       author: 김용태
       bio: 뇌와 소프트웨어 엔지니어

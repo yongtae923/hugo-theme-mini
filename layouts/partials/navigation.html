@@ -10,13 +10,16 @@
         <a href="{{ $element.path }}">{{ $element.name }}</a>
     {{ end }}
 
-    {{ range .Site.Languages }}
-        {{ if ne .Lang $.Site.Language.Lang }}
-			<a href="{{ $.Permalink | replaceRE (printf "^/%s" $.Site.Language.Lang) (printf "/%s" .Lang) }}" class="language-switch">
-                {{ if eq .Lang "ko" }}🇰🇷 한국어{{ else }}🇺🇸 English{{ end }}
-            </a>
-        {{ end }}
-    {{ end }}
+	{{ if .Site.IsMultiLingual }}
+		{{ range .Site.Languages }}
+		{{ if eq . $.Site.Language }}
+		{{ else }}
+			{{ range $.Translations }}
+			<a href="{{ .Permalink }}" class="">{{ .Language.LanguageName }}</a>
+			{{ end }}
+		{{ end }}
+		{{ end }}
+	{{ end }}
 
     {{ if .Site.Params.enableRSS }}
         <a class="button" href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}{{ i18n "subscribe" }}{{ end }}</a>
