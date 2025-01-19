@@ -2,9 +2,7 @@
 author = "김용태"
 title = "찍칠 씨의 대모험"
 date = "2025-01-11"
-description = "주말도 없이 매일 출근하는 찍칠 씨(6주령)는 어느 날 깨달았다. 내가 이렇게 쥐고생해서 매일 설탕물 조금을 일당으로 받아서는 안 되겠구나."
 tags = ["소설", "수필", "연구"]
-categories = ["소설", "수필"]
 draft = false
 +++
 
@@ -29,5 +27,3 @@ draft = false
 ### 출처
 
 [1] Meijer, Guido. 2021. “Neurons in the Mouse Brain Correlate with Cryptocurrency Price: A Cautionary Tale.” PsyArXiv. ver. 3 peer-reviewed and recommended by Peer community in Circuit Neuroscience. https://doi.org/10.31234/osf.io/fa4wz.
-
-
