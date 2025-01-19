@@ -12,11 +12,11 @@
 
 	{{ if .Site.IsMultiLingual }}
 		{{ range $.Translations }}
-			<a href="{{ .Permalink }}" class="language-switch">{{ .Language.LanguageName }}</a>
+			<a href="{{ .Permalink }}" class="button">{{ .Language.LanguageName }}</a>
 		{{ end }}
 	{{ end }}
 
-    {{ if .Site.Params.enableRSS }}
+    <!-- {{ if .Site.Params.enableRSS }}
         <a class="button" href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}{{ i18n "subscribe" }}{{ end }}</a>
-    {{ end }}
+    {{ end }} -->
 </nav>
