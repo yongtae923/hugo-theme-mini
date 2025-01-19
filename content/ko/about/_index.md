@@ -1,12 +1,16 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+title = "소개"
+description = "뇌를 연구하는 개발자, 김용태입니다."
 date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+aliases = ["about", "contact"]
+author = "김용태"
 enableComments = false
 +++
 
-소개 페이지
+반갑습니다. 뇌를 연구하는 개발자, 김용태입니다.
 
-작성 중입니다
+저는 KAIST 바이오및뇌공학과 및 전산학부에서 학부 과정을 진행하고 있습니다. 현재는 정아인 교수님의 연구실에서 연구 인턴을 맡고 있습니다. 제 연구는 인지신경과학적 개념인 인지 유연성을 중심으로 신경과학 및 소프트웨어 공학적 방법을 도입하여 그 속성을 연구하는 것에 집중합니다. 최근에는 그 방법의 하나로써 operant conditioning chamber를 활용한 training을 사용하고 있습니다.
+
+저는 한국의 스타트업에서 소프트웨어 공학자로 경력을 쌓아왔습니다. 2023년까지 한국 최대의 여성 패션 플랫폼 에이블리 서비스를 만드는 에이블리코퍼레이션에서 서버 엔지니어로서 배송 및 편의성 관련 기능을 개발하였습니다. 그 이전에는 인터렉티브 컨텐츠 플랫폼 리얼월드를 서비스하는 유니크굿컴퍼니에서 서버 엔지니어로서 플랫폼이 구동하기 위해 필요한 백엔드 기능을 개발 및 개선하였습니다.
+
+더 자세한 정보를 위해서 제 CV를 확인해 주시기를 바랍니다.
