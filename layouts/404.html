@@ -28,7 +28,7 @@
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
         {{ $title := .Title }}
-        {{ $date := dateFormat "Jan 2, 2006" .Date }}
+        {{ $date := .Date }}
         <section class="item">
           <div>
             <h1 class="title"><a href='{{ .RelPermalink }}'>{{ $title }}</a></h1>   
