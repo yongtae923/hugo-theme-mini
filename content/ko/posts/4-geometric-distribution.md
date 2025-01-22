@@ -1,7 +1,7 @@
 +++
 author = "김용태"
 title = "여러가지 확률분포(4) - Geometric distribution(기하 분포)"
-date = "2023-04-18"
+date = "2020-03-14"
 tags = ["수학"]
 draft = false
 +++
