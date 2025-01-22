@@ -85,7 +85,7 @@ params:
     # - js/custom.js # local js in `static/js/custom.js`
     # - https://example.com/custom.js # remote js
 
-defaultContentLanguage: en
+defaultContentLanguage: ko
 defaultContentLanguageInSubdir: true
 languages:
   en:
@@ -112,4 +112,4 @@ languages:
       bio: 뇌와 소프트웨어 엔지니어
       description: 김용태의 엔지니어링 블로그
     title: 김용태
-    weight: 1
+    weight: 3
