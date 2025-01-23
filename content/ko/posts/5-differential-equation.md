@@ -2,7 +2,7 @@
 author = "김용태"
 title = "미분방정식 푸는법 요약"
 date = "2020-10-15"
-tags = ["수학"]
+tags = ["수학", "미분"]
 draft = false
 +++
 

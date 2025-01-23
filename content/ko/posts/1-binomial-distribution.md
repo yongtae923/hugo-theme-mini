@@ -2,7 +2,7 @@
 author = "김용태"
 title = "여러가지 확률분포(1) - Binomial distribution(이항 분포)"
 date = "2020-02-29"
-tags = ["수학"]
+tags = ["수학", "확률"]
 draft = false
 +++
 

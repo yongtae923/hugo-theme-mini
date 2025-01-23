@@ -2,7 +2,7 @@
 author = "김용태"
 title = "RNAlater를 알아보자"
 date = "2021-05-03"
-tags = ["생명과학", "과학"]
+tags = ["과학", "생명과학"]
 draft = false
 +++
 
