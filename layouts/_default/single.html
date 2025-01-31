@@ -39,6 +39,16 @@
     
     {{ partial "comment.html" . }}
 
+    <div id="cusdis_thread"
+      data-host="https://cusdis.com"
+      data-app-id="1a71e7af-38d0-4788-8ec0-e2cd2f422a69"
+      data-page-id="{{ .File.UniqueID }}"
+      data-page-url="{{ .Permalink }}"
+      data-page-title="{{ .Title }}"
+    ></div>
+    <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+
 </section>
 
 {{ end }}
